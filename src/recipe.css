@@ -1,0 +1,57 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+body{
+    width:100vw;
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:space-around;
+    align-items:center;
+    background:lightgrey;
+}
+.form{
+    margin-top:20px;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+ }
+ .form_Input{
+   padding:1rem;
+   width:260px;
+   height:10px;
+ }
+ .form_Input:focus{
+    outline:none;
+  }
+ .form_search{
+    padding:1rem;
+    height:30px;
+    width:50px;
+  }
+.dish_bar{
+   width:300px;
+   background-color:rgb(255, 255, 255);
+   padding:20px;
+   margin:40px;
+   display:flex;
+   flex-direction:column;
+   justify-content:space-evenly;
+   align-items:center;
+   box-shadow:0px 5px 20px 10px grey;
+   border-radius:10px;
+}
+.dish_title{
+    text-align:center;
+}
+.dish_img{
+   width:220px;
+   height:220px;
+   margin-top:5px;
+   margin-bottom:5px;
+}
+.dish_incredient{
+    padding-left:10px;
+    margin-top:10px;
+}
